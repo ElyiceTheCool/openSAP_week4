@@ -33,7 +33,7 @@ for line in range(len(player1_data)):
 total = draws + player1_wins + player2_wins
 # print(total)
 
-# Write results in result.txt file like below
+# Write results in result.txt file
 file_path = "result.txt"
 with open(f"openSAP_rps\{file_path}", "w") as file3:
     file3.write(f"Player1 wins: {player1_wins}\n")
